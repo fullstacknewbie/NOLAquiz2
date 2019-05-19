@@ -1,0 +1,116 @@
+form {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 35px;
+}
+
+.hide {
+    display: none
+}
+
+html {
+    /*margin: 0;*/
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-position: center;
+    color: white;
+    background-blend-mode: darken;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    text-align: center;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width: 525px;
+    margin: auto;
+}
+
+button {
+    font-size: 70%;
+    width: 70%;
+    border-color: gray;
+    border-width: 5px;
+    background-color: rgb(146, 146, 146);
+    color:rgb(43, 43, 107);
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+label {
+    display: block;
+    padding-bottom: 3px;
+    font-size: 40x;
+}
+
+label:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 10px rgb(175, 149, 4);
+}
+
+#quizResults {
+    font-size: 1px;
+}
+
+#question {
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(97, 97, 97);
+    max-width: 400px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#next {
+    font-size: 60%;
+}
+
+#answer {
+    margin-top: 75px;
+    font-size: 25px;
+}
+
+#score {
+    margin-top: 30px;
+    font-size: 20px;
+    text-shadow: 2px 2px -3px rgb(102, 99, 99);
+}
+
+.disabled {
+    pointer-events:none;
+    opacity:0.6;
+}
+
+@media screen and (min-width: 576px) {
+    #startQuiz {
+        display: block;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        max-width: 525px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
