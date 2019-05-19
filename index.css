@@ -10,7 +10,7 @@ form {
 
 html {
     /*margin: 0;*/
-    background-image: url("images/background.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
